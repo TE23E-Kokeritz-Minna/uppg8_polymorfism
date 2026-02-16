@@ -17,4 +17,10 @@ void main()  {
             default -> throw new IllegalStateException("Ogiltigt djur");
         }
     }
+
+    Hund h = new Hund();
+
+    h.apport();
+    h.kom();
+    h.sitt();
 }

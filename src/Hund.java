@@ -1,7 +1,21 @@
-public class Hund extends Djur{
+public class Hund extends Djur implements Dresserad{
 
     public Hund(){
         super(5, 20000);
+    }
+
+    @Override
+    public void sitt() {
+        IO.println("sitt");
+    }
+    @Override
+    public void apport() {
+        IO.println("apport");
+    }
+
+    @Override
+    public void kom() {
+        IO.println("Kom");
     }
 
     @Override
