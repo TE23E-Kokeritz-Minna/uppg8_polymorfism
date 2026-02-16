@@ -1,4 +1,4 @@
-public class Djur {
+public abstract class Djur {
     protected double vikt; 
     protected int energi;
     protected boolean lever; 
@@ -21,7 +21,5 @@ public class Djur {
         if(energi <= 0 ) lever = false;
     }
 
-    public String läte (){
-        return "Djuret låter";
-    }
+    public abstract String läte ();
 }
