@@ -1,6 +1,6 @@
 public interface Dresserad {
 
-    void sitt();
-    void apport();
-    void kom();
+    public void sitt();
+    public void apport();
+    public void kom();
 }
